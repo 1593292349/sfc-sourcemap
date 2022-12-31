@@ -5,7 +5,7 @@
 	</div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import test from './test';
 import Comp from './test/App.vue';
 
