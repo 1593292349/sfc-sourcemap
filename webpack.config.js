@@ -5,6 +5,9 @@ module.exports={
 	mode:'production',
 	devtool:'source-map',
 	entry:'./src/main.js',
+	output:{
+		clean:true,
+	},
 	module:{
 		rules:[
 			{
