@@ -2,7 +2,7 @@
 	<div>comp</div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 console.log('comp');
 </script>
 

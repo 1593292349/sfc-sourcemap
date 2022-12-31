@@ -1,12 +1,11 @@
-import {createApp} from 'vue';
+import Vue from 'vue';
 import App from './App.vue';
 
-const app=createApp(App);
-
-app.config.performance=false;
+Vue.config.productionTip=false;
+Vue.config.performance=false;
 
 const container=document.createElement('div');
 container.id='app';
 document.body.appendChild(container);
 
-app.mount(container);
+new Vue(App).$mount(container.appendChild(document.createElement('div')));
