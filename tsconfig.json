@@ -5,7 +5,10 @@
 		"target":"esnext",
 		"moduleResolution":"node",
 		"allowJs":true,
-		"allowSyntheticDefaultImports":true,
+		"useDefineForClassFields":true,
+		"importHelpers":true,
+		"resolveJsonModule":true,
+		"esModuleInterop":true,
 		"baseUrl":".",
 		"paths":{
 			"@/*":[
@@ -17,8 +20,4 @@
 		"declarationDir": "./types/export"
 	},
 	"include": ["src/**/*","types/**/*"],
-	"exclude":[
-		"node_modules",
-		"dist"
-	]
 }
