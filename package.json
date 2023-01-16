@@ -4,19 +4,27 @@
 	"description":"",
 	"main":"index.js",
 	"scripts":{
-		"build":"webpack"
+		"build":"webpack",
+		"start":"webpack serve"
 	},
 	"keywords":[],
 	"author":"",
 	"license":"ISC",
 	"dependencies":{
+		"autoprefixer":"^10.4.13",
+		"css-loader":"^6.7.3",
 		"html-webpack-plugin":"^5.5.0",
+		"postcss-loader":"^7.0.2",
+		"powerful-ui":"^3.0.0-beta",
+		"sass":"^1.57.1",
+		"sass-loader":"^13.2.0",
 		"ts-loader":"~9.4.2",
 		"typescript":"~4.9.4",
 		"vue":"^3.2.45",
 		"vue-loader":"^17.0.1",
 		"vue-style-loader":"^4.1.3",
 		"webpack":"^5.75.0",
-		"webpack-cli":"^5.0.1"
+		"webpack-cli":"^5.0.1",
+		"webpack-dev-server":"^4.11.1"
 	}
 }
